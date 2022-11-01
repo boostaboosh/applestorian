@@ -67,6 +67,7 @@ ul {
 a {
     text-decoration: none;
     color: white;
+    background-color: #000000;
     border: 0.1rem solid;
     padding: 1rem 2.5rem;
 }
@@ -149,15 +150,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-.icon-wrapper {
-    width: 7vw;
-    height: 7vw;
-}
-
-.icon-wrapper:hover {
-    height: 10vw;
-}
-
 #beautiful {
     font-family: geraldine, "Lucida Handwriting", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -194,8 +186,37 @@ body::-webkit-scrollbar {
     margin-bottom: auto;
 }
 
-#menu {
+#icon {
+    width: 7vw;
+    height: 7vw;
     position: fixed;
     top: 2%;
     left: -24%;
+}
+
+#icon:hover {
+    height: 10vw;
+}
+
+#dropdown-menu {
+    display: none;
+    margin-left: 10vw;
+    float: left;
+    position: fixed;
+    /* background-color: #000000; */
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 0px 4px 4px 0px;
+}
+
+#dropdown-menu ul li {
+    float: left;
+    list-style: none;
+    padding: 10px 10px;
+    position: relative;
+    border-radius: 4px;
+}
+
+#dropdown-menu ul li a {
+    display: block;
 }

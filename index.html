@@ -7,9 +7,14 @@
         <script defer src="javascript.js"></script>
     </head>
     <body>
-        <div class="icon-wrapper" id="menu">
-            <img width="100%" height="100%" src="./icons/apple-rainbow.png" alt="Apple rainblow icon."/>
-        </div>
+        <img id="icon" dropdown-button onclick="showMenu()" width="100%" height="100%" src="./icons/apple-rainbow.png" alt="Apple rainblow icon."/>
+        <div id="dropdown-menu" dropdown>
+            <ul>
+                <li><a href="./index.html">story</a></li>
+                <li><a href="./timeline/timeline.html" target="_blank">timeline</a></li>
+                <li><a href="./principles/principles.html" target="_blank">principles</a></li>
+                <li><a href="./quiz/quiz.html" target="_blank">quiz</a></li>
+            </ul>
         </div>
         <div class="content">
             <div class="page" id="one">
@@ -107,10 +112,11 @@
             </div>
             <div class="page" id="seventeen">
                 <ul>
-                    <a href="./index.html">story</a>
-                    <a href="./timeline/timeline.html" target="_blank">timeline</a>
-                    <a href="./quiz/quiz.html" target="_blank">quiz</a>
-                    <a href="./principles/principles.html" target="_blank">principles</a>
+                    <li><a href="./index.html">story</a></li>
+                    <li><a href="./timeline/timeline.html" target="_blank">timeline</a></li>
+                    <li><a href="./principles/principles.html" target="_blank">principles</a></li>
+                    <li><a href="./quiz/quiz.html" target="_blank">quiz</a></li>
+
                 </ul>
             </div>
         </div>
