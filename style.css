@@ -56,6 +56,10 @@ input:hover {
     background-color: #ffffff;
 }
 
+input:focus {
+    background-color: #a2a2a2;
+}
+
 ul {
     list-style: none inside;
     height: 80%;
