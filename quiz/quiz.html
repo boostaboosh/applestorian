@@ -10,9 +10,20 @@
     <script defer src="./script/script.js"></script>
 </head>
 <body>
-
-
-
+    <div class="quiz-wrapper">
+        <div class="question">Q: What does Jakob's Law say?</div>
+        <div class="answer one">
+            <button class="button glow" onclick="playMusic()">A</button>
+            <p class="description">Users spend most of their time reading books, and they prefer your site to
+                look and work the same way as a book.</p>
+        </div>
+        <div class="answer two">
+            <button class="button glow" onclick="playMusic()">B</button>
+            <p class="description">Users spend most of their time on other sites, and they prefer your site to
+                work the same way as all the other sites they already know.</p>
+        </div>
+    </div>
+    
     <img id="icon" dropdown-button onclick="showMenu()" width="100%" height="100%" src="../icons/apple-rainbow.png" alt="Apple rainbow icon."/>
     <div id="dropdown-menu" dropdown>
         <ul>
@@ -21,12 +32,6 @@
             <li><a href="../principles/principles.html">principles</a></li>
             <li><a href="../quiz/quiz.html">quiz</a></li>
         </ul>
-    </div>
-    <div class="progress-section">
-        <div class="progress-bar-wrap">
-            <div class="progress-bar"></div>
-        </div>
-        <div class="progress-num"></div>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

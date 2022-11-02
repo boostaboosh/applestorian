@@ -99,6 +99,7 @@ a:hover {
     position: fixed;
     top: 2%;
     left: -24%;
+    cursor: pointer;
 }
 
 #icon:hover {
@@ -122,6 +123,7 @@ a:hover {
     padding: 10px 10px;
     position: relative;
     border-radius: 4px;
+    margin: 0;
 }
 
 #dropdown-menu ul li a {

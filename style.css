@@ -48,6 +48,7 @@ input {
     border: solid #ffffff;
     border-radius: 100%;
     margin-top: 3rem;
+    cursor: pointer;
 }
 
 input:hover {
@@ -201,6 +202,7 @@ body::-webkit-scrollbar {
     position: fixed;
     top: 2%;
     left: -24%;
+    cursor: pointer;
 }
 
 #icon:hover {
@@ -224,6 +226,7 @@ body::-webkit-scrollbar {
     padding: 10px 10px;
     position: relative;
     border-radius: 4px;
+    margin: 0;
 }
 
 #dropdown-menu ul li a {
