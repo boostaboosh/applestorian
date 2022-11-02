@@ -5,6 +5,13 @@ function playMusic(){
     }
 }
 
+wrongAudio = new Audio ("../audios/YouKnowTheRules.mp3")
+function playMusicWrong(){
+    if(wrongAudio.paused) {
+        wrongAudio.play();
+    }
+}
+
 function showMenu(){
     let menu = document.getElementById('dropdown-menu');
     if(menu.style.display == 'block'){
