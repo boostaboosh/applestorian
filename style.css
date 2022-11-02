@@ -190,6 +190,11 @@ body::-webkit-scrollbar {
     margin-bottom: auto;
 }
 
+#icon,
+#dropdown-menu {
+    z-index: 1;
+}
+
 #icon {
     width: 7vw;
     height: 7vw;

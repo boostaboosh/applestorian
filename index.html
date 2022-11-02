@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Applestorian</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
         <script defer src="javascript.js"></script>
     </head>
     <body>
@@ -11,34 +12,34 @@
         <div id="dropdown-menu" dropdown>
             <ul>
                 <li><a href="./index.html">story</a></li>
-                <li><a href="./timeline/timeline.html" target="_blank">timeline</a></li>
-                <li><a href="./principles/principles.html" target="_blank">principles</a></li>
-                <li><a href="./quiz/quiz.html" target="_blank">quiz</a></li>
+                <li><a href="./timeline/timeline.html">timeline</a></li>
+                <li><a href="./principles/principles.html">principles</a></li>
+                <li><a href="./quiz/quiz.html">quiz</a></li>
             </ul>
         </div>
         <div class="content">
-            <div class="page" id="one">
+            <div data-aos="slide-down" data-aos-delay="600" class="page" id="one">
                 <img width="100%" height="100%" src="./images/Apple Garamond font - think different ad campaign image.jpg" alt="Rainbow coloured Apple logo and think different text underneath it."/>
             </div>
-            <div class="page" id="two">
+            <div data-aos="slide-right" data-aos-delay="500" class="page" id="two">
                 <h1>Apple design is</h1>
                 <p id="beautiful">beautiful</p>
                 <p>simple</p>
                 <p id="human">human</p>
             </div>
-            <div class="page" id="three">
+            <div data-aos="slide-left" data-aos-delay="500" class="page" id="three">
                 <p>good design</p>
                 <p>is <span id="beautiful">beautiful</span></p>
                 <input type="button" value="&#9658 sound" onclick="playMusic()"/>
              </div>
-            <div class="page" id="four">
+            <div data-aos="flip-down" data-aos-delay="500" class="page" id="four">
                 <img width="100%" height="100%" src="./images/blondiBlueiMac.jpeg" alt="Image of blondi blue iMac from 1998 with the text 'chic not geek' next to it."/>
             </div>
-            <div class="page" id="five">
+            <div data-aos="flip-up" data-aos-delay="400" class="page" id="five">
                 <h1>Aesthetic-Usability Effect</h1>
                 <p>Users oftern perceive aesthetically pleasing design as a design that's more usable.</p>
             </div>
-            <div class="page" id="six">
+            <div data-aos="zoom-in" data-aos-delay="500" class="page" id="six">
                 <div id="titles">
                     <p>T3 transistor radio, Braun 1958</p>
                     <p>iPod, Apple 2001</p>
@@ -51,7 +52,7 @@
                     <p>Jonathan Ive</p>
                 </div>
             </div>
-            <div class="page" id="seven">
+            <div data-aos="zoom-out" data-aos-delay="500" class="page" id="seven">
                 <div class="video-wrapper">
                     <video poster="./thumbnails/ipodThumbnail.png" controls>
                         <source src="./videos/Apple - iPod + iTunes (Jet - Are you Gonna Be My Girl) Ad (360p).mp4" type="video/mp4"/>
@@ -59,11 +60,11 @@
                     </video>
                 </div>
             </div>
-            <div class="page" id="eight">
+            <div data-aos="fade-down" data-aos-delay="500" class="page" id="eight">
                 <p>"good design is as little design as possible"</p>
                 <p class="citation">Dieter Rams</p>
             </div>
-            <div class="page" id="nine">
+            <div data-aos="fade-up" data-aos-delay="500" class="page" id="nine">
                 <div class="video-wrapper">
                     <video poster="./thumbnails/unPCThumbnail.png" controls>
                         <source src="./videos/Apple iMac un pc 1998 (144p).mp4" type="video/mp4"/>
@@ -71,21 +72,21 @@
                     </video>
                 </div>
             </div>
-            <div class="page" id="ten">
+            <div data-aos="slide-up" data-aos-delay="500" class="page" id="ten">
                 <p>good design is simple</p>
             </div>
-            <div class="page" id="eleven">
+            <div data-aos="fade-right" data-aos-delay="600" class="page" id="eleven">
                 <p>His main demand was "<span id="simplify">SIMPLIFY</span>"!</p>
                 <p>If he wanted a function he should be able to get there in three clicks.</p>
                 <p>And the click should be intuitive.</p>
                 <p class="citation">Walter Isaacson's: Steve Jobs Biography</p>
             </div>
-            <div class="page" id="twelve">
+            <div data-aos="fade-left" data-aos-delay="500" class="page" id="twelve">
                 <h1>Hick's Law</h1>
                 <p>The time it takes to make a decision increases with the number and complexity of choices available.</p>
                 <p class="citation">William Edmund Hick and Ray Hyman</p>
             </div>
-            <div class="page" id="thirteen">
+            <div data-aos="flip-left" data-aos-delay="500" class="page" id="thirteen">
                 <div class="video-wrapper">
                     <video poster="./thumbnails/iPhoneThumbnail.png" controls>
                         <source src="./videos/Steve Jobs introduces iPhone in 2007.mp4" type="video/mp4"/>
@@ -93,16 +94,16 @@
                     </video>
                 </div>
             </div>
-            <div class="page" id="fourteen">
+            <div data-aos="flip-up" data-aos-delay="500" class="page" id="fourteen">
                 <p>good deisgn</p>
                 <p>is human</p>
             </div>
-            <div class="page" id="fifteen">
+            <div data-aos="flip-down" data-aos-delay="500" class="page" id="fifteen">
                 <h1>Von Restorff or Isolation Effect</h1>
                 <p>When multiple similar objects are present, the one that differs from the rest is most likely to be remembered.</p>
                 <p class="citation">Hedwig Von Restorff</p>
             </div>
-            <div class="page" id="sixteen">
+            <div data-aos="flip-right" data-aos-delay="500" class="page" id="sixteen">
                 <div class="video-wrapper">
                     <video poster="./thumbnails/thinkDifferentThumbnail.png" controls>
                         <source src="./videos/Apple - Think Different - Full Version.mp4" type="video/mp4"/>
@@ -110,12 +111,12 @@
                     </video>
                 </div>
             </div>
-            <div class="page" id="seventeen">
+            <div data-aos="slide-up" data-aos-delay="500" class="page" id="seventeen">
                 <ul>
                     <li><a href="./index.html">story</a></li>
-                    <li><a href="./timeline/timeline.html" target="_blank">timeline</a></li>
-                    <li><a href="./principles/principles.html" target="_blank">principles</a></li>
-                    <li><a href="./quiz/quiz.html" target="_blank">quiz</a></li>
+                    <li><a href="./timeline/timeline.html">timeline</a></li>
+                    <li><a href="./principles/principles.html">principles</a></li>
+                    <li><a href="./quiz/quiz.html">quiz</a></li>
 
                 </ul>
             </div>
@@ -126,5 +127,9 @@
             </div>
             <div class="progress-num"></div>
         </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
