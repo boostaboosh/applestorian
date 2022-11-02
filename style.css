@@ -118,9 +118,8 @@ a:hover {
 
 .progress-section {
     position: fixed;
-    left: 20px;
+    left: 25px;
     top: -10px;
-    width: 60px;
     height: 20%;
     display: flex;
     justify-content: space-between;
@@ -136,6 +135,7 @@ a:hover {
     border-radius: 10px;
     overflow: hidden;
     background-color: rgb(70, 70, 70);
+    margin-right: 1rem;
 }
 
 .progress-bar {
@@ -144,6 +144,10 @@ a:hover {
     width: 100%;
     height: 0%;
     background-color: rgb(189, 189, 189);
+}
+
+.progress-num {
+    color: rgb(189, 189, 189);
 }
 
 body::-webkit-scrollbar {
